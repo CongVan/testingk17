@@ -9,11 +9,11 @@ module.exports = {
         database: 'qldd'
     },
     db_postgres: {
-        host: 'ec2-54-225-92-1.compute-1.amazonaws.com',
-        user: 'ffkbthmekcsqvr',
-        password: '7e56f12c63de879cc2a81c53210ab3cf44d3a11c1a259df839307336677ba438',
+        host: 'ec2-23-21-106-241.compute-1.amazonaws.com',
+        user: 'wuwfedmaipbour',
+        password: '7a4ae3f53c80290d241aa97d9c341c10e446b92186a3e99aaa36533ac8df3685',
         port:'5432',
-        database: 'd4bp4shdvs3690'
+        database: 'd654c7o6hlubl8'
     },
     //db_postgres: {
     //    host: 'localhost',
@@ -22,7 +22,7 @@ module.exports = {
     //    port:'5432',
     //    database: 'qldd'
     //},
-    host: 'https://parkhangseo.herokuapp.com',
+    host: 'https://testingk17.herokuapp.com',
     email_setting: {
         host: 'smtp.office365.com', // Office 365 server
         port: 587, // secure SMTP
@@ -187,7 +187,7 @@ module.exports = {
             }
         });
     },
-    
+
     removeExtraFromTeacherName: function(teacher_name) {
         var name = teacher_name;
         //cắt học vị
